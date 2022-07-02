@@ -9,10 +9,7 @@ import "../components/todoList.css";
 
 function TodoList() {
   //tasks
-  const [toDo, setToDO] = useState([
-    { id: 1, title: "Task1", status: false },
-    { id: 2, title: "Task2", status: false },
-  ]);
+  const [toDo, setToDO] = useState([]);
 
   //temp state
   const [newTask, setNewTask] = useState("");
